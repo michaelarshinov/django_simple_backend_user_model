@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+<html>
+<head>
+    <title>{% block title %}templates/stat_info.html{% endblock %}</title>
+</head>
+<body>
+
+<div id="content">
+    {% block content %}
+        Welcome!
+    is_authenticated : {{ is_auth }}
+
+    {% if user.is_authenticated %}
+        <p>Welcome, {{ user.username }}. Thanks for logging in.</p>
+    {% else %}
+        <p>Welcome, new user. Please log in.</p>
+    {% endif %}
+    {% endblock %}
+</div>
+
+</body>
+</html>
