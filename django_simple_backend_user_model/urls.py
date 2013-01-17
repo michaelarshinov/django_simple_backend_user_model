@@ -6,8 +6,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'auth_backend.views.home', name='home'),
-    # url(r'^auth_backend/', include('auth_backend.foo.urls')),
+    # url(r'^$', 'django_simple_backend_user_model.views.home', name='home'),
+    # url(r'^django_simple_backend_user_model/', include('django_simple_backend_user_model.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

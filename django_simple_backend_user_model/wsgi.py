@@ -15,7 +15,7 @@ framework.
 """
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "auth_backend.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_simple_backend_user_model.settings")
 
 # This application object is used by any WSGI server configured to use this
 # file. This includes Django's development server, if the WSGI_APPLICATION
