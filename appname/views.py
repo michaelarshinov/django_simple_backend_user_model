@@ -1,10 +1,10 @@
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
-from django.template import Context, loader
+from django.template import Context, loader, RequestContext
 
 from django.shortcuts import render_to_response
-from django.template import RequestContext
+
 #https://docs.djangoproject.com/en/1.2/topics/auth/#other-authentication-sources
 #http://stackoverflow.com/questions/9825630/login-required-decorator-in-django-1-1-and-template-name
 
