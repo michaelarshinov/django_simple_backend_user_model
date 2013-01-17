@@ -102,7 +102,7 @@ ROOT_URLCONF = 'auth_backend.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'auth_backend.wsgi.application'
 
-TEMPLATE_DIRS = ('/home/marshynov/PycharmProjects/auth_backend/templates',)
+TEMPLATE_DIRS = ('/home/marshynov/PycharmProjects/django_simple_backend_user_model/templates',)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
